@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".activity.Exercise_Detail">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageButton
+        android:id="@+id/btn_IPA_One"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/one"/>
+    <ImageButton
+        android:id="@+id/btn_IPA_Two"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/two"/>
+    <ImageButton
+        android:id="@+id/btn_IPA_Three"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/three"/>
+    <ImageButton
+        android:id="@+id/btn_IPA_Four"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/four"/>
+    <ImageButton
+        android:id="@+id/btn_IPA_Five"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/five"/>
+    <ImageButton
+        android:id="@+id/btn_IPA_Six"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/six"/>
+</LinearLayout>
+</LinearLayout>

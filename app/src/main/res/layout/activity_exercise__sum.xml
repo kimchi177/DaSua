@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".activity.Exercise_Sum">
+    <ImageButton
+        android:id="@+id/btn_Level1"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/selectone"/>
+    <ImageButton
+        android:id="@+id/btn_Level2"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/selecttwo"/>
+    <ImageButton
+        android:id="@+id/btn_Level3"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/with"
+        android:layout_height="@dimen/height"
+        android:background="@drawable/selecthree"/>
+</LinearLayout>

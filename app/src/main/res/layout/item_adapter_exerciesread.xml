@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/bag"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginRight="@dimen/margin_bottom_exerice"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginBottom="@dimen/margin_bottom_exerice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/textcolor"
+            android:padding="@dimen/margin_bottom_exerice"
+            android:layout_marginTop="@dimen/margin_bottom_exerice"
+            android:id="@+id/txt_word1"
+            android:hint="Word"
+            android:textSize="@dimen/textsize"
+         android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_marginTop="@dimen/margin_bottom_exerice"
+            android:padding="@dimen/margin_bottom_exerice"
+            android:id="@+id/img_voice"
+            android:background="@drawable/ic_keyboard_voice_black_24dp"
+            android:layout_width="42dp"
+            android:layout_height="33dp" />
+    </LinearLayout>
+
+</LinearLayout>

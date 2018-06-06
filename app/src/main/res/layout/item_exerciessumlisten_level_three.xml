@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/left"
+    android:layout_marginLeft="@dimen/left"
+    android:layout_marginTop="@dimen/left"
+    android:background="@drawable/bag"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/img_VolumLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_volume_up_black_24dp" />
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/Radio_RG_Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <RadioButton
+                android:id="@+id/RdbOneLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="@dimen/left"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/txt_RadioOneLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="text one"
+                android:textColor="@color/textcolor" />
+
+
+            <RadioButton
+                android:id="@+id/RdbTwoLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="@dimen/left"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/txt_RadioTwolevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="text two"
+                android:textColor="@color/textcolor" />
+            <RadioButton
+                android:id="@+id/RdbThreeLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="@dimen/left"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/txt_RadioThreeLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="text three"
+                android:textColor="@color/textcolor" />
+
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

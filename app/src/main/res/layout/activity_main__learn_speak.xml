@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.MainActivity_LearnSpeak">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingBottom="@dimen/margin_bottom_exerice"
+        android:background="@drawable/bag"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/img_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_volume_up_black_24dp" />
+
+        <ImageView
+            android:id="@+id/btnvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/margin_bottom_exerice"
+            android:background="@drawable/ic_movie_filter_black_24dp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_image"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+   <ListView
+       android:id="@+id/recyclerView"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+     ></ListView>
+
+
+</LinearLayout>
+</LinearLayout>
